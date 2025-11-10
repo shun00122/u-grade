@@ -336,3 +336,17 @@ footer {
     font-size: 0.9rem
   }
 }
+
+/* サイトが試験的であることを明示するバナー */
+.site-notice{
+  background: linear-gradient(90deg, rgba(255,249,196,0.98), rgba(255,243,199,0.98));
+  color: #92400e;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+@media (max-width:720px){
+  .site-notice{ font-size:0.9rem; padding:0.6rem 0.75rem }
+}
